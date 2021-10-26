@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+	background-color: #f8f8f8;
+	font-family: 'Russo One', sans-serif;
+	font-size:34px;
+	padding-top: 6%;
+}
+
+main{
+	text-align: center;
+}
+
+
+main h1 {
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .10em solid black; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
